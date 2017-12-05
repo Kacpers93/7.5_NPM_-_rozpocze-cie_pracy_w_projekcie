@@ -1,8 +1,7 @@
 Auto prefix-cli
 Usage:
-autoprefixer-cli -o mstye.prefixed.css style.css
+autoprefixer-cli -o stye.prefixed.css style.css
 
 nu-html-checker
 Usage:
-nu-html-checker [options] <files/urls ...>
-Choose the formatter to use. (stylish, json) (default: stylish)
+nu-html-checker --api https://validator.nu/ index.html
